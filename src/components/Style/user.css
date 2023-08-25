@@ -1,0 +1,152 @@
+
+.taskfilid input
+{
+    color: rgb(46, 3, 87);
+    font-size: 20px;
+    width: 60%;
+    font-family: Copperplate Gothic Light;
+    background-color: blanchedalmond;
+}
+.taskfilid .refer
+{
+    color: aqua;
+    font-family: Colonna MT;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.taskfilid input.titel
+{
+    height: 40px;
+    
+}
+
+.taskfilid textarea.description
+{
+    height: 160px;
+    width: 60%;
+    border: none;
+    color: rgb(46, 3, 87);
+    font-size: 15px;
+    background-color: rgb(238, 212, 178);
+    font-family:Comic Sans MS;
+    
+}
+textarea
+{
+    padding: 9px;
+    padding-left:15px;
+}
+
+.taskfilid
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.task
+{
+    margin-top: 50px;
+ 
+}
+.task :hover
+{
+    cursor: pointer;
+}
+.task button
+{
+    position: relative;
+           
+    
+    border: none;
+    border-radius: 0px;
+    background-color: black;
+    color: red;
+    font-size: .85rem;
+    font-family: Anurati;
+    border: .5px solid transparent;
+    transition: .4s;
+}
+.task:hover
+{
+    box-shadow: 6px 6px 0px rgb(232, 0, 0);
+    cursor: pointer;
+}
+.userTask
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.taskList
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 17px;
+    width: 60%;
+   
+    
+}
+
+.taskList .taskelement
+{
+    margin-right: 6rem;
+    
+    width: 60%;
+    
+}
+.taskbuttion
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.taskbuttion input
+{
+    margin-right: 50px;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+}
+.taskbuttion input :hover
+{
+    cursor: pointer;
+}
+.taskbuttion button
+{
+    position: relative;
+           
+   
+    border: none;
+    border-radius: 0px;
+    background-color: black;
+    color: red;
+    font-size: .60rem;
+    font-family: OCR A Extended;
+    border: .5px solid transparent;
+    transition: .4s;
+    margin-right: 10px;
+}
+button.btn :hover
+{
+    cursor: pointer;
+    color: white;
+}
+.taskelement h1.tasktitel
+{
+    color: rgb(6, 74, 74);
+    font-size: 25px;
+    font-family: Copperplate Gothic Light;
+    margin-bottom: 7px;
+}
+.taskelement h4.taskdescription
+{
+    color: rgb(27, 87, 18);
+    font-size: 20px;
+    font-family:Calibri Light;
+    
+}

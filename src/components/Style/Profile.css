@@ -1,0 +1,49 @@
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilepic img
+{
+    height: 155px;
+    width: 143px;
+}
+.profilepic
+{
+    height: 200px;
+    width: 200px;
+    border: solid 5px  black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+    
+}
+h1.userName
+{
+    color: rgb(14, 14, 87);
+    font-family: Footlight MT Light;
+    font-size: 50px;
+}
+h3.userEmail
+{
+    color: rgb(14, 14, 87);
+    font-family: Footlight MT Light;
+    font-size: 30px;
+}
+/* button
+{
+    position: relative;
+           
+   margin-top: 30px;
+    border: none;
+    border-radius: 0px;
+    background-color: black;
+    color: red;
+    font-size: .60rem;
+    font-family: OCR A Extended;
+    border: .5px solid transparent;
+    transition: .4s;
+} */

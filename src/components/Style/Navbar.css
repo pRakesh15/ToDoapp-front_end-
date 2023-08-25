@@ -1,0 +1,72 @@
+
+/* @import url(); */
+header
+{
+    position: sticky;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    /* font-family: Anurati; */
+    
+}
+header li .link
+{
+    color: #5e00f6;
+}
+.navbar
+{
+    display: flex;
+    background-color:transparent;
+    
+
+}
+
+.logo
+{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #5e00f6;
+    font-family: Kristen ITC;
+
+}
+
+.logo li
+{
+    list-style: none;
+
+}
+/* .logo li img
+{
+    margin: 0;
+    padding: 0;
+    height: px;
+    width: 30px;
+} */
+.menue
+{
+    display: flex;
+    margin: 10px;
+    margin-left: 67%;
+    
+
+}
+.menue li
+{
+    list-style: none;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.menue li a
+{
+    
+    font-family: Anurati;
+           font-size: 1.2rem;
+    text-decoration: none;
+    
+}
+
